@@ -2,6 +2,8 @@
 
 namespace Dashifen\ComposerScripts;
 
+use DirectoryIterator;
+
 class AbstractComposerScript
 {
   protected string $root;
