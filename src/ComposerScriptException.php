@@ -1,5 +1,7 @@
 <?php
 
+namespace Dashifen\ComposerScripts;
+
 use Dashifen\Exception\Exception;
 
 class ComposerScriptException extends Exception

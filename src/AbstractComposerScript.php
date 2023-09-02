@@ -1,5 +1,7 @@
 <?php
 
+namespace Dashifen\ComposerScripts;
+
 class AbstractComposerScript
 {
   protected string $root;
