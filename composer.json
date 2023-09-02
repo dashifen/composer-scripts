@@ -1,0 +1,25 @@
+{
+  "license": "MIT",
+  "name": "dashifen/composer-scripts",
+  "description": "A small library that helps my composer scripts do the work they need to do as fast as possible.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "David Dashifen Kees (they/them)",
+      "homepage": "https://dashifen.com",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dashifen\\ComposerScripts\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
