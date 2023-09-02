@@ -4,9 +4,18 @@ namespace Dashifen\ComposerScripts;
 
 use DirectoryIterator;
 
-class AbstractComposerScript
+abstract class AbstractComposerScript
 {
   protected string $root;
+  
+  /**
+   * run
+   *
+   * Use this abstract function to define how your script is run.
+   *
+   * @return int
+   */
+  abstract public function run(): int;
   
   /**
    * findRootDirectory
@@ -59,7 +68,7 @@ class AbstractComposerScript
       ComposerScriptException::UNABLE_TO_FIND_ROOT_DIR
     );
   }
-    
+  
   /**
    * emptyDirectory
    *
